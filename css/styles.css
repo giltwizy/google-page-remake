@@ -105,5 +105,27 @@ section{
 /* End of searching canvas  */
 
 /* Beginning of footer */
+.footer-wrapper{
+    background-color: #f2f2f2;
+    padding: 9px 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.bottom-text{
+    padding: 2px 8px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.right-footer{
+    float: right;
+    
+}
 
 /* End of footer */
