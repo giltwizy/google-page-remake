@@ -121,6 +121,11 @@ footer{
     padding: 2px 8px;
     font-size: 14px;
     color: #5f6368;
+    text-decoration: none;
+}
+
+.bottom-text>a{
+    text-decoration: none;
 }
 
 .right-footer{
