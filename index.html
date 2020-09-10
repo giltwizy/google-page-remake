@@ -30,9 +30,42 @@
         <nav>
             <a class="menu-item" href="#">Gmail</a>
             <a class="menu-item" href="#">Images</a>
-            <i><img id="dropdown-menu" src="./img/baseline_apps_black_24dp.png" alt="apps-icon"></i>
-            <!-- <i id="dropdown-menu" class="material-icons">apps</i> -->
+            <div id="app-wrapper-container">
+                <i><img id="dropdown-menu" src="./img/baseline_apps_black_24dp.png" alt="apps-icon"></i>
+                <!-- Apps container start -->
+                <div class="app-wrapper">
+                    <div class="app-item">
+                        <img src="./img/google-logo-png-open-2000.png" alt="google-search">
+                        <p>Search</p>
+                    </div>
+                    <div class="app-item">
+                        <img src="./img/google-maps-new.png" alt="google maps" />
+                        <p>Maps</p>
+                    </div>
+                    <div class="app-item">
+                        <img src="./img/google-drive.png" alt="google drive" />
+                        <p>Drive</p>
+                    </div>
+                    <div class="app-item">
+                        <img src="./img/google-calendar.png" alt="google calendar" />
+                        <p>calendar</p>
+                    </div>
+                    <div class="app-item">
+                        <img src="./img/google-photos.png" alt="google photos" />
+                        <p>Photos</p>
+                    </div>
+                    <div class="app-item">
+                        <img src="./img/google-keep.png" alt="google keep" />
+                        <p>Keep</p>
+                    </div>
+                </div>
+                <!-- End apps container  -->
+
+            </div>
+
             <img id="profile-pic" src="./img/person-1.jpg" alt="profile-pic" height="32" width="32">
+
+
         </nav>
     </header>
     <!-- End of Navigation bar -->
@@ -44,7 +77,9 @@
             <br>
             <div id="searchbox-wrapper">
                 <input id="search-box" type="text">
-                <img id="voice-search-icon" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="voice-search-icon">
+                <img id="voice-search-icon"
+                    src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
+                    alt="voice-search-icon">
             </div>
             <div id="buttons-wrapper">
                 <button class="buttons" type="submit">Google search</button>
@@ -53,32 +88,7 @@
         </section>
     </main>
     <!-- End of searh canvas  -->
-    <div class="app-wrapper">
-        <div class="app-item">
-            <img src="https://pluspng.com/img-png/google-logo-png-open-2000.png" alt="google-search">
-            <p>Search</p>    
-        </div>
-        <div class="app-item">
-            <img src="https://img.icons8.com/fluent/48/000000/google-maps-new.png"alt="google maps"/>
-            <p>Maps</p>    
-        </div>
-        <div class="app-item">
-            <img src="https://img.icons8.com/fluent/48/000000/google-drive.png" alt="google drive"/>
-            <p>Drive</p>    
-        </div>
-        <div class="app-item">
-            <img src="https://img.icons8.com/color/48/000000/google-calendar.png"alt="google calendar"/>
-            <p>calendar</p>    
-        </div>
-        <div class="app-item">
-            <img src="https://img.icons8.com/fluent/48/000000/google-photos.png"alt="google photos"/>
-            <p>Photos</p>    
-        </div>
-        <div class="app-item">
-            <img src="https://img.icons8.com/color/48/000000/google-keep.png" alt="google keep"/>
-            <p>Keep</p>    
-        </div>
-    </div>
+
 
     <!-- Beginning of footer  -->
     <footer class="footer-wrapper">
@@ -93,10 +103,11 @@
                 <span class="bottom-text"><a href="#">Terms</a></span>
                 <span class="bottom-text"><a href="#">Settings</a></span>
             </div>
-        </div>    
+        </div>
     </footer>
     <!-- End of footer  -->
 
     <script src="" async defer></script>
 </body>
+
 </html>

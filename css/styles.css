@@ -26,16 +26,25 @@ nav{
     margin-right: 16px;
 }
 
+/* apps display begin */
+
+#app-wrapper-container{
+    display: inline-block;
+}
+
+#app-wrapper-container:hover
 .app-wrapper{
+    display: block;
+}
+
+.app-wrapper{
+    position: absolute;
+    right: 75px;
+    display: none;
     width: 285px;
     padding: 28px;
     border: 1px solid #ccc;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-}
-
-.app-item>img{
-    height: 50px;
-    width: 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);    
 }
 
 .app-item{
@@ -43,13 +52,28 @@ nav{
     width: 84px;
     text-align: center;
     margin-bottom: 8px;
+    padding: 8px 2px;
 }
+
+.app-item:hover{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.app-item>img{
+    height: 50px;
+    width: 50px;
+}
+
 
 .app-item>p{
     color: rgba(0,0,0,0.87);
     margin: 0;
     padding-top: 8px;
 }
+
+/* apps display end  */
 
 #profile-pic{
     border-radius: 50%;
@@ -63,6 +87,7 @@ nav{
 section{
     text-align: center;
     padding-top: 10%;
+    margin-top: 40px;
 }
 
 #google-logo{
